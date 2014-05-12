@@ -6,6 +6,6 @@
     },
     {
         "name": "projecttitle",
-        "question": "Name of the website",
-    }    
+        "question": "Name of the website"
+    }
 ]
