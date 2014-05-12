@@ -1,0 +1,11 @@
+[
+    {
+        "name": "sqlalchemy",
+        "question": "Include flask-sqlalchemy support?",
+        "choices": ["Yes", "No"]
+    },
+    {
+        "name": "projecttitle",
+        "question": "Name of the website",
+    }    
+]
