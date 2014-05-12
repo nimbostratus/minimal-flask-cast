@@ -1,12 +1,8 @@
 from flask import Flask
-{% if sqlalchemy %}
-from flask.ext.sqlalchemy import SQLAlchemy
-{% endif %}
+{% if sqlalchemy == "Yes" %}from flask.ext.sqlalchemy import SQLAlchemy{% endif %}
 
 app = Flask(__name__)
-{% if sqlalchemy %}
-db = SQLAlchemy()
-{% endif %}
+{% if sqlalchemy == "Yes" %}db = SQLAlchemy(){% endif %}
 
 
 @app.route('/')
